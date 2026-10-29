@@ -1,0 +1,23 @@
+public class mainn {
+    static void main() {
+        solution obj=new solution();
+        String s="ababaadaacak";
+        System.out.println("input :" + s);
+        String result=obj.removeDuplicate(s);
+
+        System.out.println("output :" + result);
+
+
+
+
+
+
+        //bonus solution
+        bonusSolution obj2 = new bonusSolution();
+
+        String input = "deeedbbcccbdaa";
+
+        System.out.println("Input: " + input);
+        System.out.println("Output: " + obj2.removeTriplicates(input));
+    }
+}
